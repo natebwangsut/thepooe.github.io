@@ -28,11 +28,14 @@ body {
     font-size: 30px;
     line-height: 200px;
     position: relative;
+    transition: all 0.2s;
 }
-.firstel {
+#box_container.firstel {
     top: 25px;
 }
-.inherit {
-    position: inherit;
+#box_container.secondel {
     top: 50px;
+}
+#box_container:hover {
+    background-color: #ffb857;
 }
