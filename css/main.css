@@ -4,6 +4,7 @@ body {
     margin: 0px;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1.5em;
+    line-height: 2em;
 }
 #banner_container {
     width: 100%;
@@ -22,18 +23,17 @@ body {
     margin: 0px;
 }
 #box_container {
-    width: 100%;
+    width: 95%;
     height: 200px;
     background-color: white;
     //line-height: 200px;
     position: relative;
+    left: 2.5%;
     transition: all 0.3s;
 }
 #box_container.firstel {
-    top: 25px;
 }
 #box_container.secondel {
-    top: 50px;
 }
 #box_container:hover {
     background-color: #ffb857;
