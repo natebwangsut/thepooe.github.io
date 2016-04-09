@@ -31,10 +31,9 @@ body {
     left: 2.5%;
     transition: all 0.3s;
 }
-#box_container.firstel {
-}
-#box_container.secondel {
-}
 #box_container:hover {
     background-color: #ffb857;
+}
+#box_container.firstel {
+    height: 100px;
 }
