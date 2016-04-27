@@ -41,6 +41,7 @@ body {
 }
 #box_container:hover {
     background-color: #fd9;
+    background-color: #ffb857;
 }
 #box_container.firstel {
     height: 100px;
