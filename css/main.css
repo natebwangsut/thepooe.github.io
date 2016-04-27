@@ -1,38 +1,46 @@
 body {
     width: 100%;
-    height: 2000px;
+    height: 100%;
     margin: 0px;
+    padding: 0px;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1.5em;
     line-height: 2em;
+    background-color: white;
 }
 #banner_container {
     width: 100%;
     height: 300px;
-    background-color: aquamarine;
+    background-color: white;
+}
+#logo_container {
+    width: 100%;
+    height: 50px;
+    background-color: white;
 }
 #menu_container {
     width: 100%;
     height: 50px;
-    background-color: mediumspringgreen;
+    background-color: white;
 }
 #body_container {
     width: 100%;
-    height: 1650px;
-    background-color: dodgerblue;
+    height: 100%;
+    background-color: white;
     margin: 0px;
+    overflow: auto;
 }
 #box_container {
-    width: 95%;
+    width: 90%;
     height: 200px;
-    background-color: white;
+    background-color: #AEF;
     //line-height: 200px;
     position: relative;
-    left: 2.5%;
+    margin: 0px auto;
     transition: all 0.3s;
 }
 #box_container:hover {
-    background-color: #ffb857;
+    background-color: #fd9;
 }
 #box_container.firstel {
     height: 100px;
