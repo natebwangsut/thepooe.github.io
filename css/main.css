@@ -6,22 +6,38 @@ body {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1.5em;
     line-height: 2em;
-    background-color: white;
+    background-color: #FFF;
 }
 #banner_container {
     width: 100%;
-    height: 300px;
+    height: 500px;
     background-color: white;
 }
 #logo_container {
     width: 100%;
-    height: 50px;
-    background-color: white;
+    height: 150px;
+    background-color: #FFF;
 }
-#menu_container {
-    width: 100%;
-    height: 50px;
-    background-color: white;
+#logo_text {
+    width: 80%;
+    color: #333;
+    font-size: 1em;
+    text-align: left;
+    line-height: 150px;
+    overflow-x: hidden;
+}
+#logo {
+    width: 100px;
+    height: 100px;
+    background-image: url('/img/avatar.png');
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: antiquewhite;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    border: 5px solid;
 }
 #body_container {
     width: 100%;
@@ -31,9 +47,8 @@ body {
 }
 #box_container {
     width: 100%;
-    height: 500px;
-    background-color: #DFD;
-    //line-height: 200px;
+    height: 1000px;
+    background-color: #FFFFFF;
     position: relative;
     margin: 0px auto;
     transition: all 0.3s;
@@ -50,7 +65,7 @@ body {
         0px -10px 10px -7px rgba(0,0,0,0.5);
 }
 #box_container.in {
-    background-color: #AFF;
+    background-color: #FED;
     -webkit-box-shadow:
         inset 0px  10px 10px -7px rgba(0,0,0,0.5),
         inset 0px -10px 10px -7px rgba(0,0,0,0.5);
@@ -61,9 +76,14 @@ body {
         inset 0px  10px 10px -7px rgba(0,0,0,0.5),
         inset 0px -10px 10px -7px rgba(0,0,0,0.5);
 }
-#box_container:hover {
-    background-color: #fd9;
-}
 #box_container.firstel {
     height: 100px;
+}
+#footer {
+    width: 100%;
+    height: 25px;
+    font-size: 0.5em;
+    line-height: 25px;
+    text-align: left;
+    color: #AAA;
 }
